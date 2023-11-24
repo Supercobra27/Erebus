@@ -7,7 +7,7 @@ use ieee.numeric_std.all;
 entity mux8to1 is
     port (inputs : in std_logic_vector (7 downto 0);
     select_signal : in std_logic_vector (2 downto 0);
-    outputValue : out std_logic;
+    outputValue : out std_logic
     );
 end entity;
 
