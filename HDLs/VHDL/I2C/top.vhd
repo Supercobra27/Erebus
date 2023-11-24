@@ -11,7 +11,7 @@ entity top is
   port (
     SCL, clk, rst: in std_logic; -- Serial Clock Line
     SDA: inout std_logic; -- Serial Data Line
-    IO_8 : out std_logic_vector (7 downto 0);
+    IO_8 : out std_logic_vector (7 downto 0)
   ) ;
 end top;
 
