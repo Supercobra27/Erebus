@@ -19,7 +19,7 @@ architecture arch of ALU_tb is
         ALU_Out : OUT  std_logic_vector(7 downto 0);
         Carryout : OUT  std_logic
        );
-   END COMPONENT;
+   end component;
 
     -- Inputs
     signal A : std_logic_vector(7 downto 0) := (others => '0');
