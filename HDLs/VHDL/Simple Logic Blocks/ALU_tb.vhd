@@ -12,12 +12,12 @@ end ALU_tb;
 architecture arch of ALU_tb is
 
     --Component for UUT (unit under test)
-    component ALU PORT(
+    component ALU port(
         A : in  std_logic_vector(7 downto 0);
         B : in std_logic_vector(7 downto 0);
         ALU_Sel : in  std_logic_vector(3 downto 0);
         ALU_Out : out  std_logic_vector(7 downto 0);
-        Carryout : out  std_logic
+        Carryout : out  std_logic;
        );
     end component;
 
